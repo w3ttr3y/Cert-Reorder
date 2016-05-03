@@ -9,7 +9,7 @@ While the ultimate goal would be to have the ability to list the certificates in
 This script is licensed under fairly liberal terms, so please feel free to use it and hopefully make your life easier.  If you do find bugs, want to contribute new features, etc please fork it, make the change, and make a pull request.  For simple changes, you can also e-mail me either a diff or a complete script if its not too big.
 
 ###Splunk Compatability
-This script utilizes PyOpenSSL; the python bundled with Splunk includes this library, so it should be easy fairly easy to run.  By default the script utilizes the standard python shebang line `#!/usr/bin/env python` which should invoke the systems version of python. It also includes an example on the third line of directly utilizing the python bundled with Splunk (assuming $SPLUNKHOME is /opt/splunk) `#!/opt/splunk/bin/python`  If you replace the first line with this, (assuming you modify /opt/splunk to point to your $SPLUNKHOME) then it should work.
+This script utilizes PyOpenSSL; the python bundled with Splunk includes this library, so it should be easy fairly easy to run.  By default the script utilizes the standard python shebang line `#!/usr/bin/env python` which should invoke the systems version of python. It also includes an example on the third line of directly utilizing the python bundled with Splunk (assuming $SPLUNKHOME is /opt/splunk) `#!/opt/splunk/bin/splunk cmd python`  If you replace the first line with this, (assuming you modify /opt/splunk to point to your $SPLUNKHOME) then it should work.
 
 ##Usage
 
